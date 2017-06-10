@@ -1,5 +1,5 @@
 /*
-	selectFile v1.0
+	selectFile.js v1.0
 	(c) 2017 by Thielicious
 	
 	A JavaScript function which lets you customize the browse button and its selection text. 
