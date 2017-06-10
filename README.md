@@ -54,6 +54,8 @@ That is all. You may change the text in the label and give them some stylesheet.
 
 <br>
 
+:new: A **[Demo](https://jsfiddle.net/Thielicious/4oxmsy49/)** has been added.
+
 ###### If you encounter any bugs, feel free to open up an **[issue](https://github.com/thielicious/selectFile.js/issues)**, thank you.
 
 ---
