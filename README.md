@@ -11,6 +11,7 @@
 A JavaScript function which lets you customize the browse button and its selection text. It is known that the browse button `<input type=file>` is not directly 
 customizable. This function simply emulates this button using an ordinary input button as a trigger.
 
+
 ## SETUP INFORMATION
 
 Use your CLI and enter the following to clone:<br>
@@ -35,7 +36,8 @@ And then embed it in a form like this:<br>
 That is all. You may change the text in the label and give them some stylesheet.
 
 
-## Methods
+## FUNCTIONS
+
 **prototype.targets(trigger, filetext)**<br>
 » Parameter 1 defines the ID element that triggers the browse file button
 » Parameter 2 defines the ID element that displays the selected file
@@ -44,6 +46,7 @@ That is all. You may change the text in the label and give them some stylesheet.
 » Simulates the button click.
 
 A demo will come in future.
+
 <br>
 <br>
 
