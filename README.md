@@ -30,10 +30,12 @@ getFile.targets(<ID element to be triggered>, <ID element that displays the sele
 
 And then embed it in a form like this:<br>
 ```
-<input type=file hidden id=choose name=choose>
-<input type=button onClick=getFile.simulate() value=getFile>
-<label id=selected>Nothing selected</label><br>
-<input type=submit name=upload value=Upload> 
+<form action=upload.php method=POST>
+	<input type=file hidden id=choose name=choose>
+	<input type=button onClick=getFile.simulate() value=getFile>
+	<label id=selected>Nothing selected</label><br>
+	<input type=submit name=upload value=Upload>
+</form>
 ```
 That is all. You may change the text in the label and give them some stylesheet.
 
@@ -42,11 +44,11 @@ That is all. You may change the text in the label and give them some stylesheet.
 ## FUNCTIONS
 
 **prototype.targets(trigger, filetext)**<br>
-» Parameter 1 defines the ID element that triggers the browse file button<br>
-» Parameter 2 defines the ID element that displays the selected file
+ » Parameter 1 defines the ID element that triggers the browse file button<br>
+ » Parameter 2 defines the ID element that displays the selected file
 
 **prototype.simulate()**<br>
-» Simulates the button click.
+ » Simulates the button click.
 
 **A demo will come in future.**
 
