@@ -25,7 +25,7 @@ Use your CLI and enter the following to clone:<br>
 Create an object :
 ```
 var getFile = new selectFile;
-getFile.targets(<ID element to be triggered>, <ID element that displays the selected file>);
+getFile.targets('choose','selected');
 ```
 
 And then embed it in a form like this:<br>
