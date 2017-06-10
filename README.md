@@ -43,12 +43,12 @@ That is all. You may change the text in the label and give them some stylesheet.
 
 ## FUNCTIONS
 
-**prototype.targets(trigger, filetext)**<br>
+**prototype.targets(trigger, filetext)**
 * Parameter 1 defines the ID element that triggers the browse file button<br>
 * Parameter 2 defines the ID element that displays the selected file
 
-**prototype.simulate()**<br>
- » Simulates the button click.
+**prototype.simulate()**
+* Simulates the button click.
 
 **A demo will come in future.**
 
