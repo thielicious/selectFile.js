@@ -32,18 +32,18 @@ And then embed it in a form like this:<br>
 <label id=selected>Nothing selected</label><br>
 <input type=submit name=upload value=Upload> 
 ```
-
 That is all. You may change the text in the label and give them some stylesheet.
 
 
-### Methods
-**.prototype.targets(trigger, filetext)**<br>
+## Methods
+**prototype.targets(trigger, filetext)**<br>
 » Parameter 1 defines the ID element that triggers the browse file button
 » Parameter 2 defines the ID element that displays the selected file
 
 **prototype.simulate()**<br>
 » Simulates the button click.
 
+A demo will come in future.
 <br>
 <br>
 
