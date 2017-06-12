@@ -1,4 +1,4 @@
- # selectFile.js
+# selectFile.js
 
 ##### A JavaScript function which let's you customize the browse button
 
@@ -50,6 +50,7 @@ That is all. You may change the text in the label and give them some stylesheet.
 **prototype.simulate()**
 * Simulates the button click.
 
+<br>
 <br>
 
 :new: A **[Demo](https://jsfiddle.net/Thielicious/4oxmsy49/)** has been added.
