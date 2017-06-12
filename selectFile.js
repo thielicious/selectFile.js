@@ -10,7 +10,7 @@
 
 var selectFile = function() {
 	
-	var regex = [/[-?\w+]+\.\S+/];
+	var regex = [/[^\/]+$/];
 	
 	this.choose,
 	this.selected;
