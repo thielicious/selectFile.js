@@ -10,7 +10,7 @@
 
 var selectFile = function() {
 	
-	var regex = [/[^\/]+$/];
+	var regex = /[^\\]+$/;
 	
 	this.choose,
 	this.selected;
@@ -25,10 +25,8 @@ var selectFile = function() {
 			var choose = document.getElementById(this.choose),
 				selected = document.getElementById(this.selected);
 			choose.addEventListener("change",() => {
-				if (choose.value != "") {
-					selected.innerHTML = choose.value.replace(
-						choose.value, choose.value.match(regex[0])
-					);
+				if (choose.value != "") { 
+					selected.innerHTML = choose.value.match(regex);
 				}
 			});		
 		} else {
