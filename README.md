@@ -31,8 +31,8 @@ getFile.targets('choose','selected');
 And then embed it in a form like this:<br>
 ```
 <form action=upload.php method=POST>
-  <input type=file hidden id=choose name=choose>
-  <input type=button onClick=getFile.simulate() value=getFile>
+  <input type=file hidden id=choose>
+  <input type=button onClick=getFile.simulate() value="Get File">
   <label id=selected>Nothing selected</label><br>
   <input type=submit name=upload value=Upload>
 </form>
