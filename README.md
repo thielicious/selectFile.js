@@ -37,7 +37,7 @@ And then embed it in a form like this:<br>
   <input type=submit value=Upload>
 </form>
 ```
-That is all. You may change the text in the label and give them some stylesheet.
+That is all. You may change the text in the label and give it some style.
 
 <br>
 
@@ -48,7 +48,7 @@ That is all. You may change the text in the label and give them some stylesheet.
 * Parameter 2 defines the ID element that displays the selected file
 
 **prototype.simulate()**
-* Simulates the button click.
+* Simulates the button click
 
 <br>
 <br>
