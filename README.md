@@ -37,7 +37,7 @@ And then embed it in a form like this:<br>
   <input type=submit value=Upload>
 </form>
 ```
-That is all. You may change the text in the label and give it some style.
+That is all. You may change the text in the label and give them some style.
 
 <br>
 
