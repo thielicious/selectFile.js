@@ -3,8 +3,7 @@
 	(c) 2017 by Thielicious
 	
 	A JavaScript function which lets you customize the browse button and its selection text. 
-	It is known that the browse button `<input type=file>` is not directly customizable. 
-	This function simply emulates this button using an ordinary input button as a trigger.
+	This function simply emulates the browse button using an ordinary input button as a trigger.
 */
 
 
