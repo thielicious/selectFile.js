@@ -7,48 +7,48 @@
 */
 
 
-var selectFile = function() {
+const selectFile = function() {
 	
-	var regex = /[^\\]+$/;
+	let regex = /[^\\]+$/
 	
 	this.choose,
-	this.selected;
+	this.selected
 	
-	this.msg = (str) => {
-		var prefix = '[selectFile.js]\n\nError: ';
-		return alert(prefix+str);
+	this.msg = str => {
+		let prefix = '[selectFile.js]\n\nError: '
+		return alert(prefix+str)
 	}
 		
 	this.check = () => {
 		if (this.choose && this.selected != null) {
-			var choose = document.getElementById(this.choose),
-				selected = document.getElementById(this.selected);
-			choose.addEventListener("change",() => {
-				if (choose.value != "") { 
-					selected.innerHTML = choose.value.match(regex);
+			let choose = document.getElementById(this.choose),
+				selected = document.getElementById(this.selected)
+			choose.addEventListener('change',() => {
+				if (choose.value != '') { 
+					selected.innerHTML = choose.value.match(regex)
 				}
-			});		
+			})
 		} else {
-			this.msg("Targets not set.");
+			this.msg('Targets not set.')
 		}
 	}
 	
 	selectFile.prototype.targets = (trigger, filetext) => {
-		this.choose = trigger;
-		this.selected = filetext;
+		this.choose = trigger
+		this.selected = filetext
 	}
 	
 	selectFile.prototype.simulate = () => {
 		if (this.choose != null) {
-			var choose = document.getElementById(this.choose);
-			if (typeof choose != "undefined") {
-				choose.click();
-				this.check();
+			let choose = document.getElementById(this.choose)
+			if (typeof choose != 'undefined') {
+				choose.click()
+				this.check()
 			} else {
-				this.msg("Could not find element "+this.choose);
+				this.msg('Could not find element '+this.choose)
 			}
 		} else {
-			this.msg("Targets not set.");
+			this.msg('Targets not set.')
 		}
 	}	
 	
